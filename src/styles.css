@@ -24,7 +24,7 @@ body {
 }
 
 .bg {
-  padding: 20px;
+  padding: 0px;
 }
 
 h1 {
@@ -62,20 +62,31 @@ p {
 .content {
   display: flex;
   flex-direction: column;
-  margin: 10px 30px 30px 30px;
+  margin: 10px 0px 30px 0px;
+  padding: 0px 20px;
   justify-content: center;
   align-items: center;
 }
 
 .btn {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: var(--lightblue);
   border-radius: 5px;
   padding: 10px;
   height: auto;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 600;
   margin: 10px 10px;
+  color: var(--darkgray);
 }
 
+.btn > svg {
+  margin-left: -25px;
+  margin-right: 10px;
+}
 .btnContainer {
   display: flex;
   flex-direction: column;
@@ -89,7 +100,7 @@ p {
 }
 
 .leagueGif {
-  width: 300px;
+  width: 350px;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -101,8 +112,9 @@ p {
 
 a {
   color: rgba(206, 153, 46, 1);
-  font-size: 26px;
+  font-size: 18px;
   text-align: "center";
+  margin-bottom: 40px;
 }
 
 a:hover {
@@ -116,42 +128,47 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
+
+  .bg {
+    padding: 20px;
+  }
+
   .leagueGif {
-    width: 700px;
+    width: 550px;
     height: auto;
     margin-left: -10px;
   }
 
   p {
-    font-size: 28px;
+    font-size: 18px;
   }
 
   .pContainer {
-    padding: 0px 100px;
+    padding: 0px 80px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
   }
   .content {
     display: flex;
     flex-direction: row;
-    margin: 70px 100px 70px 30px;
+    margin: 30px 50px 30px 50px;
     justify-content: center;
   }
 
   h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .iconImg {
     position: absolute;
     top: 20px;
     left: 50px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 
   .btnContainer {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -160,13 +177,16 @@ a:hover {
   .btn {
     background-color: var(--lightblue);
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     color: var(--darkgray);
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 600;
     width: 100%;
     margin: 0px 20px;
     height: auto;
     border-color: var(--lightgray);
+  }
+  a {
+    font-size: 16px;
   }
 }
