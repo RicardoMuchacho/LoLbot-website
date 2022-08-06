@@ -1,0 +1,46 @@
+<template>
+  <require from="./styles.css"></require>
+  <body>
+    <div class="bg">
+      <div class="header">
+        <img class="iconImg" src="./images/LoL_icon.png" alt="" />
+        <h1 class="title">League Roulette Discord Bot</h1>
+      </div>
+      <div class="content">
+        <div class="pContainer">
+          <p class="description">
+            League of Legends Champion Randomizer, show your skills with any
+            champ or troll in the process of mastery while having fun with your
+            friends!
+          </p>
+          <p class="description">
+            Current Functions: <br /><br />
+            - Random champion <br />
+            - Random troll from online users
+          </p>
+
+          <div class="btnContainer">
+            <button click.delegate="inviteBot()" class="btn">
+              Invite to Server
+            </button>
+            <button click.delegate="navGithub()" class="btn">
+              Instructions
+            </button>
+          </div>
+        </div>
+        <video
+          class="leagueGif flex2"
+          src="./images/leagueGif.mp4"
+          type="video/mp4"
+          autoplay
+          loop
+        />
+      </div>
+      <div class="contactContainer">
+        <a href="mailto: ricardojrmuchacho@gmail.com"
+          >Contact: ricardo.developer@gmail.com</a
+        >
+      </div>
+    </div>
+  </body>
+</template>
