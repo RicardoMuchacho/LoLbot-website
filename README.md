@@ -1,10 +1,10 @@
-# `Aurelia Website for Discord Bot`
+# Aurelia Website for Discord Bot
 
 League Roulette Discord Bot Website - Aurelia, Javascript
 
 Website link:
 
-[League Roulette Discord Bot](https://github.com/RicardoMuchacho/LoL-discordBot)
+League Roulette Discord Bot repo with instructions[Here](https://github.com/RicardoMuchacho/LoL-discordBot)
 
 ## Run app for dev
 
