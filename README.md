@@ -2,7 +2,7 @@
 
 League Roulette Discord Bot Website - Aurelia, Javascript
 
-Website link:
+Website link: https://league-roulette.netlify.app/
 
 League Roulette Discord Bot repo with instructions [Here](https://github.com/RicardoMuchacho/LoL-discordBot)
 
